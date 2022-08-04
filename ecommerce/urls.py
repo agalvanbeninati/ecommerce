@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 from ecommerce.views import saludo, segundo_template, template_con_lista
-from blog.views import create_article
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
